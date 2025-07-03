@@ -1,0 +1,38 @@
+import { Link } from "react-router-dom";
+
+function PricingCard({ pricing: { plan, price, img, features, highlighted, featureIcon } }) {
+	return (
+    <div className="sofax-pricing-wrap">
+      <div className="sofax-pricing-header">
+        <img src={img} alt="icon" />
+        <h4>{plan}</h4>
+      </div>
+      <div className="sofax-pricing-price">
+        <h2>${price.value}</h2>
+      </div>
+      <div className="sofax-pricing-body">
+        <h5>Key features:</h5>
+        <ul>
+          {features.map((feature) => (
+            <li key={feature}>
+              <img src={featureIcon} alt="feature Icon" />
+              {feature}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="sofax-pricing-footer">
+        <Link
+          className={`sofax-default-btn  d-block pill ${
+            !highlighted && "outline-btn"
+          }`}
+          to="https://calendly.com/hetdynamic/get-the-canada-residency-permit-for-entrepreneurs"
+        >
+          Get Started
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+export default PricingCard;
