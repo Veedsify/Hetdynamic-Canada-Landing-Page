@@ -33,7 +33,7 @@ import BlogPage from "../page/blog/index.jsx";
 import SingleBlogPage from "../page/blog/SingleBlog.jsx";
 import CareerPage from "../page/career/index.jsx";
 import SingleCareerPage from "../page/career/SingleCareer.jsx";
-import ContactUs from "../page/contact-us/index.jsx";
+import ContactUs from "../pagehttps://calendly.com/hetdynamic/get-the-canada-residency-permit-for-entrepreneurs/index.jsx";
 import HomeEight from "../page/home/HomeEight.jsx";
 import HomeFive from "../page/home/HomeFive.jsx";
 import HomeFour from "../page/home/HomeFour.jsx";

@@ -155,7 +155,7 @@ function WhyChooseUs() {
                 <Link
                   className="sofax-default-btn pill"
                   data-text="Get started"
-                  hrtoef="/contact-us"
+                  hrtoef="https://calendly.com/hetdynamic/get-the-canada-residency-permit-for-entrepreneurs"
                 >
                   <span className="button-wraper">Check Eligibility</span>
                 </Link>

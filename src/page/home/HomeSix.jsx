@@ -1,5 +1,5 @@
 import About from "../../components/home/home-six/about";
-import ContactUs from "../../components/home/home-six/contact-us";
+import ContactUs from "../../components/home/home-sixhttps://calendly.com/hetdynamic/get-the-canada-residency-permit-for-entrepreneurs";
 import Counter from "../../components/home/home-six/counter";
 import Faq from "../../components/home/home-six/faq";
 import Features from "../../components/home/home-six/features";
@@ -9,19 +9,19 @@ import Services from "../../components/home/home-six/services";
 import Testimonial from "../../components/home/home-six/testimonial";
 
 function HomeSix() {
-	return (
-		<>
-			<Hero />
-			<LogoSlider />
-			<Features />
-			<About />
-			<Counter />
-			<Services />
-			<Testimonial />
-			<Faq />
-			<ContactUs />
-		</>
-	);
+  return (
+    <>
+      <Hero />
+      <LogoSlider />
+      <Features />
+      <About />
+      <Counter />
+      <Services />
+      <Testimonial />
+      <Faq />
+      <ContactUs />
+    </>
+  );
 }
 
 export default HomeSix;

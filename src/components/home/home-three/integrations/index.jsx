@@ -15,182 +15,184 @@ import Img9 from "../../../../assets/images/v3/9.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 const sliderDataOne = [
-	{
-		id: crypto.randomUUID(),
-		img: Img1,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img2,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img3,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img4,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img5,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img6,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img1,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img2,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img3,
-	},
+  {
+    id: crypto.randomUUID(),
+    img: Img1,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img2,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img3,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img4,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img5,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img6,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img1,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img2,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img3,
+  },
 ];
 const sliderDataTwo = [
-	{
-		id: crypto.randomUUID(),
-		img: Img7,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img8,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img9,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img10,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img11,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img12,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img7,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img8,
-	},
-	{
-		id: crypto.randomUUID(),
-		img: Img9,
-	},
+  {
+    id: crypto.randomUUID(),
+    img: Img7,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img8,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img9,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img10,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img11,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img12,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img7,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img8,
+  },
+  {
+    id: crypto.randomUUID(),
+    img: Img9,
+  },
 ];
 
 const swiperSettingsOne = {
-	speed: 8000,
-	autoplay: {
-		delay: 0,
-		disableOnInteraction: false,
-	},
-	loop: true,
-	allowTouchMove: false,
-	modules: [Autoplay],
-	slidesPerView: 2,
-	spaceBetween: 30,
-	breakpoints: {
-		768: {
-			slidesPerView: 3,
-		},
-		1024: {
-			slidesPerView: 4,
-		},
-		1536: {
-			slidesPerView: 6,
-		},
-	},
-	className: "sofax-integration-slider-icon-data",
+  speed: 8000,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+  },
+  loop: true,
+  allowTouchMove: false,
+  modules: [Autoplay],
+  slidesPerView: 2,
+  spaceBetween: 30,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+    1536: {
+      slidesPerView: 6,
+    },
+  },
+  className: "sofax-integration-slider-icon-data",
 };
 const swiperSettingsTwo = {
-	speed: 8000,
-	autoplay: {
-		delay: 0,
-		disableOnInteraction: false,
-		reverseDirection: true,
-	},
-	loop: true,
-	allowTouchMove: false,
-	modules: [Autoplay],
-	slidesPerView: 2,
-	spaceBetween: 30,
+  speed: 8000,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+    reverseDirection: true,
+  },
+  loop: true,
+  allowTouchMove: false,
+  modules: [Autoplay],
+  slidesPerView: 2,
+  spaceBetween: 30,
 
-	breakpoints: {
-		768: {
-			slidesPerView: 3,
-		},
-		1024: {
-			slidesPerView: 4,
-		},
-		1536: {
-			slidesPerView: 6,
-		},
-	},
-	className: "sofax-integration-slider-icon-data-wrap",
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+    1536: {
+      slidesPerView: 6,
+    },
+  },
+  className: "sofax-integration-slider-icon-data-wrap",
 };
 
 function Integrations() {
-	return (
-		<section className="sofax-section-padding bg-light" id="integration">
-			<div className="container">
-				<div className="sofax-section-title">
-					<div className="row">
-						<div className="col-xl-6 col-lg-6">
-							<div className="tg-heading-subheading animation-style3">
-								<h2>Integrate it with your favorite tools</h2>
-							</div>
-						</div>
-						<div className="col-xl-6 col-lg-6 d-flex align-items-center justify-content-end">
-							<div className="sofax-title-btn wow fadeInUpX">
-								<Link
-									className="sofax-default-btn pill"
-									data-text="Explore All Integrations"
-									to="/contact-us"
-								>
-									<span className="button-wraper">Explore All Integrations</span>
-								</Link>
-							</div>
-						</div>
-					</div>
-				</div>
-				{
-					<Swiper {...swiperSettingsOne}>
-						{sliderDataOne.map((item) => (
-							<SwiperSlide key={item.id}>
-								<div className="sofax-integration-slider-icon">
-									<img src={item.img} alt="Brand Logo" />
-								</div>
-							</SwiperSlide>
-						))}
-					</Swiper>
-				}
-				{
-					<Swiper {...swiperSettingsTwo}>
-						{sliderDataTwo.map((item) => (
-							<SwiperSlide key={item.id}>
-								<div className="sofax-integration-slider-icon">
-									<img src={item.img} alt="Brand Logo" />
-								</div>
-							</SwiperSlide>
-						))}
-					</Swiper>
-				}
-			</div>
-		</section>
-	);
+  return (
+    <section className="sofax-section-padding bg-light" id="integration">
+      <div className="container">
+        <div className="sofax-section-title">
+          <div className="row">
+            <div className="col-xl-6 col-lg-6">
+              <div className="tg-heading-subheading animation-style3">
+                <h2>Integrate it with your favorite tools</h2>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 d-flex align-items-center justify-content-end">
+              <div className="sofax-title-btn wow fadeInUpX">
+                <Link
+                  className="sofax-default-btn pill"
+                  data-text="Explore All Integrations"
+                  to="https://calendly.com/hetdynamic/get-the-canada-residency-permit-for-entrepreneurs"
+                >
+                  <span className="button-wraper">
+                    Explore All Integrations
+                  </span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        {
+          <Swiper {...swiperSettingsOne}>
+            {sliderDataOne.map((item) => (
+              <SwiperSlide key={item.id}>
+                <div className="sofax-integration-slider-icon">
+                  <img src={item.img} alt="Brand Logo" />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        }
+        {
+          <Swiper {...swiperSettingsTwo}>
+            {sliderDataTwo.map((item) => (
+              <SwiperSlide key={item.id}>
+                <div className="sofax-integration-slider-icon">
+                  <img src={item.img} alt="Brand Logo" />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        }
+      </div>
+    </section>
+  );
 }
 
 export default Integrations;
