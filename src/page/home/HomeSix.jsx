@@ -1,5 +1,5 @@
 import About from "../../components/home/home-six/about";
-import ContactUs from "../../components/home/home-sixhttps://calendly.com/hetdynamic/get-the-canada-residency-permit-for-entrepreneurs";
+import ContactUs from "../../components/home/home-six/contact-us";
 import Counter from "../../components/home/home-six/counter";
 import Faq from "../../components/home/home-six/faq";
 import Features from "../../components/home/home-six/features";
