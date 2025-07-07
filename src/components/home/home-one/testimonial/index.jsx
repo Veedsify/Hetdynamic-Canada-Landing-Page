@@ -171,7 +171,7 @@ function Testimonial() {
       </div>
       <div className="sofax-testimonial-slider-2">
         <Swiper {...swiperSettingsTwo}>
-          {testimonialOneData.map((testimonial) => (
+          {testimonialTwoData.map((testimonial) => (
             <SwiperSlide key={testimonial.id}>
               <TestimonialCard testimonial={testimonial} />
             </SwiperSlide>
