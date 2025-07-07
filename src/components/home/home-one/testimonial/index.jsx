@@ -22,7 +22,7 @@ const testimonialOneData = [
     description:
       "Professional team with excellent customer support. They delivered exactly what was promised and helped us achieve our goals efficiently. Great value for money.",
     author: "Adebayo Adeyemi",
-    designation: "Businessman",
+    designation: "Private Investor",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoAFm5g30-H9JZXbPoqxUkXDz4uR3X9P1wg&s",
   },
   {
@@ -49,7 +49,7 @@ const testimonialOneData = [
     description:
       "Reliable, efficient, and cost-effective. The team was professional throughout the entire process and delivered on time. Would definitely use their services again.",
     author: "Folake Adebisi",
-    designation: "Businessman",
+    designation: "Enterpreneur",
     img: "https://i1.rgstatic.net/ii/profile.image/11431281189948037-1695214523179_Q512/Folake-Owodunni.jpg",
   },
 ];
@@ -70,7 +70,7 @@ const testimonialTwoData = [
     description:
       "Best investment we've made for our company. The service quality is exceptional and the features are exactly what we needed. Highly satisfied with the results.",
     author: "Olumide Fashola",
-    designation: "Businessman",
+    designation: "Project Manager",
     img: "https://societynow.ng/wp-content/uploads/2023/08/tempFileForShare_20230801-165842.jpg",
   },
   {
@@ -97,7 +97,7 @@ const testimonialTwoData = [
     description:
       "Great product with solid support. Easy to implement and integrate with our existing systems. The ROI has been impressive and continues to grow.",
     author: "Amaka Eze",
-    designation: "Businessman",
+    designation: "Marketer",
     img: "https://www.efdinitiative.org/sites/default/files/styles/headshot/public/headshots/Amaka%20efd.jpg?itok=pVF4vhBu",
   },
 ];
