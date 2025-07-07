@@ -16,7 +16,10 @@ function TestimonialCard({ testimonial: { rating, title, description, author, de
 			</div>
 			<div className="sofax-testimonial-author">
 				<div className="sofax-testimonial-author-thumb">
-					<img src={img} alt="author" />
+					<img src={img} alt="author" width={64} height={64} style={{
+						borderRadius: "50%",
+						objectFit: "cover",
+					}} />
 				</div>
 				<div className="sofax-testimonial-author-data">
 					<h5>{author}</h5>
