@@ -16,7 +16,7 @@ const servicesData = [
   },
   {
     id: crypto.randomUUID(),
-    icon: '/license.svg',
+    icon: "/license.svg",
     title: "Licensed immigration lawyers",
     description:
       "Our team of licensed	& experienced lawyers and consultants are dedicated to providing personalized support.",
@@ -30,7 +30,7 @@ const servicesData = [
   },
 ];
 function Services() {
-	return (
+  return (
     <div className="section sofax-section-padding bg-light" id="service">
       <div className="container">
         <div className="sofax-section-title max-width-770 ">
@@ -50,7 +50,7 @@ function Services() {
                 <Link
                   className="sofax-default-btn pill"
                   data-text="View all services"
-                  to="https://www.hetdynamic.com/services"
+                  to="https://www.hetdynamic.com/"
                 >
                   <span className="button-wraper">View all services</span>
                 </Link>

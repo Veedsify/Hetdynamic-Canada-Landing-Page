@@ -61,7 +61,7 @@ function Services() {
                 <Link
                   className="sofax-default-btn pill"
                   data-text="View All Services"
-                  to="https://www.hetdynamic.com/services"
+                  to="https://www.hetdynamic.com/"
                 >
                   <span className="button-wraper">View All Services</span>
                 </Link>
